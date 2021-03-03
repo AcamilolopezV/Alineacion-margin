@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+*{
+  font-family: 'Montserrat', sans-serif;
+}
+
+.wrapper{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 5px;
+  width: 550px;
+  margin: auto;
+  padding-top: 20px;
+}
+
+.container1, .container2, .container3, .container4, .container5, .container6, .container7, .container8, .container9{
+  background: #50f594;
+  width: 180px;
+  height: 180px;
+}
+
+.element1, .element2, .element3, .element4, .element5, .element6, .element7, .element8, .element9{
+  width: 60px;
+  height: 60px;
+  text-align: center;
+  padding-top: 9px;
+  box-sizing: border-box;
+  font-size: 10px;
+  font-weight: bold;
+  overflow: hidden;
+  border: 1px solid #000000;
+}
+
+.element1{
+  background: #F4D03F;
+  margin: 0;
+}
+
+.element2{
+  background:#F4D03F;
+  margin: 60px 0;
+}
+
+.element3{
+  background: #F4D03F;
+  margin: 120px 0;
+}
+
+.element4{
+  background: #5DADE2;
+  color: white;
+  margin: auto;
+}
+
+.element5{
+  background: #5DADE2;
+  color: white;
+  margin: 60px auto;
+}
+
+.element6{
+  background: #5DADE2;
+  color: white;
+  margin: 120px auto;
+}
+
+.element7{
+  background:  #EC7063;
+  color: white;
+  margin: 0 120px;
+}
+
+.element8{
+  background:  #EC7063;
+  color: white;
+  margin: 60px 120px;
+}
+
+.element9{
+  background:  #EC7063;
+  color: white;
+  margin: 120px 120px;
+}
